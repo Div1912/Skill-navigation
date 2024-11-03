@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #301d9066;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  #image-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Keep the image in the background */
+  }
+  
+  #background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire background */
+  }
+  
+  header {
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #logo {
+    max-width: 100px;
+  }
+  
+  .login-container {
+    background: rgba(124, 104, 104, 0.523);
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  #login-message {
+    margin-top: 1em;
+    color: red;
+  }
+  

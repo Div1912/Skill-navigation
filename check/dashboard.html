@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+        <div id="image-background">
+          <img src="images/Home.png" alt="Background Image" id="background-img">
+          <!-- Your other content -->
+        </div>
+      </body>
+<body>
+  <header>
+    <img src="images/Divy.png" alt="Logo" id="logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="contact.html">Contact Us</a>
+      
+    </nav>
+  </header>
+  <main>
+    <div class="dashboard-container">
+      <h1>Welcome, [User Name]!</h1>
+      <section>
+        <h2>Enrolled Courses</h2>
+        <ul id="enrolled-courses">
+          <li>Graphic Designing</li>
+          <li>Sotware Engineering</li>
+          <li>Cybersecurity</li>
+          <li>Web Development</li>
+          <li>Machine learning</li>
+          <li>Enginnering Mathematics</li>
+
+        </ul>
+      </section>
+      <section>
+        <h2>Progress</h2>
+        <p>Course Completion: 50%</p>
+        <progress value="50" max="100"></progress>
+      </section>
+      <section>
+        <h2>Recommended Courses</h2>
+        <ul id="recommended-courses">
+          <li>Data Science</li>
+          <li>AI & Machine Learning</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <script src="dashboard.js"></script>
+</body>
+</html>
